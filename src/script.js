@@ -19,7 +19,12 @@ const canvas = document.querySelector('canvas.webgl')
 const scene = new THREE.Scene()
 
 const camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 5000 );
-camera.position.set( 0, 160, 400 );
+// camera.position.set( 0, 160, 400 );
+// camera.position.set( -280, 480, 400 );
+camera.position.set( -240, 420, 340 );
+// camera.position.set( 50, 250, 500 );
+// camera.position.set( 80, 180, 550 );
+// camera.position.set( -11, 300, 342 );
 scene.add(camera)
 
 const controls = new OrbitControls( camera, canvas );
