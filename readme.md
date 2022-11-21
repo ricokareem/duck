@@ -5,8 +5,7 @@
 https://duck-duck.netlify.app/
 
 ## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+This app runs on Node.
 
 ``` bash
 # Install dependencies
